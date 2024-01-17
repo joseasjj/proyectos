@@ -1,0 +1,702 @@
+ * {
+
+   margin: 0;
+
+
+ }
+
+ .encabezado1 {
+
+
+  
+  background-image: url(fondonav.png);
+  
+   
+
+
+ }
+
+
+ .encabezado1 img {
+
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    width:180px
+
+
+ }
+ 
+ .encabezado {
+
+   background-image: url(fondonav.png) ;
+   background-size: cover;
+   background-position: center;
+   flex-direction: row;
+   display: flex;
+   width: 100%;
+   
+
+ }
+
+
+ .encabezado img {
+
+   width: 40%;
+   margin-left: 100px;
+   
+   
+ }
+
+
+ .parrafo1 {
+
+  
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: 40%;
+    color: #ffffff;
+    font-family: 'Georama', sans-serif;
+    font-size: 35px;
+    
+    
+  }
+
+
+  .encabezado input {
+    
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 65px;
+    margin-left: -450px;
+    font-family: 'Georama', sans-serif;
+    background-color: #43CDFF;
+    border: 5px solid #43CDFF;
+    border-radius: 10px;
+     
+    
+
+
+  
+
+}
+
+ .encabezado input:hover {
+     
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 65px;
+  margin-left: -450px;
+  font-family: 'Georama', sans-serif;
+  background-color: #AAE7FE;
+  border: 5px solid #AAE7FE;
+  border-radius: 10px;
+  
+  
+}
+
+ .subencabezado {
+
+      display: flex;
+      background-color: #4BC9EE;
+      width: 100%;
+
+
+
+
+     }
+
+
+     .subencabezado img {
+
+      margin: auto;
+      margin-right: 220px;
+      padding: 30px;
+      width: 20%;
+         
+   }
+
+
+   .subencabezado h3 {
+
+      color: #fff;
+      font-family: 'Georama', sans-serif;
+      width: 80%;
+      margin: auto;
+      margin-left: 220px ;     
+      font-size: 35px;
+
+
+   }
+
+
+   .principal-container {
+
+      display: flex;
+      color: #38D5FF;
+      width: 100%;
+      
+
+   }
+
+   .principal-izquierda p {
+
+   color: #000;
+   
+
+   }
+
+   .principal-izquierda i {
+
+    color: #87dfff;
+
+   }
+
+   .principal-derecha i {
+
+    color: #87dfff;
+
+   }
+
+ 
+   .principal-izquierda {
+    
+    background-color:#F8F8F8;
+    padding: 17px;   
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+    width: 50%;
+
+    
+   }
+
+
+  .principal-derecha  {
+  
+        font-family: 'Georama', sans-serif;
+        color: #000;
+        background-color:  #F8F8F8;
+        width: 50%;
+        
+     
+
+  }
+
+  .principal-derecha p {
+
+   padding: 15px;
+   margin-left:40px;
+   font-size: 20px;
+  
+  }
+
+  .principal-derecha video {
+
+    margin-bottom: 20px ;
+    margin-left: 55px;
+  
+    
+
+    
+    
+
+  }
+
+
+
+
+  .inputcontainer {
+
+    background-color:  #2764A6;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+
+
+  }
+
+
+.imagenmenu {
+
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: -50px;
+    
+    
+  
+
+
+  }
+
+  .parrafomenu {
+
+    
+    font-family: 'Georama', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin-right: 150px ;
+    margin-bottom: 50px;
+   
+      
+
+  }
+
+
+
+
+
+ .form {
+
+    margin-top: 30px;
+    padding: 30px;
+    flex-direction: column;
+
+    
+        
+    
+   
+   
+
+
+ }
+
+.form1 {
+
+   
+   
+   width: 100%;
+   padding: 0 25px;
+   height: 30px;
+   background: transparent;
+   border: none;
+   border: 2px solid #F8F8F8;
+   border-radius: 10px;
+   font-size: 17px;
+   font-family: 'Georama', sans-serif;
+   color: #F8F8F8;
+   margin-bottom: 10px;
+   
+   
+
+
+}
+
+
+.form1:focus {
+
+  width: 100%;
+  padding: 0 25px;
+  height: 30px;
+  background: #7ecceb;
+  border: none;
+  border: 2px solid #7ecceb;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: 'Georama', sans-serif;
+  margin-bottom: 10px;
+
+  }
+
+
+
+
+input::placeholder {
+
+   color: #B9C5CA;
+
+}
+
+
+.input i {
+
+  color: #B9C5CA ;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 7px;
+
+}
+
+
+.enviarboton {
+
+   width: 40%;
+   margin-left: 37%;
+   background: #38D5FF;
+   border-color: #38D5FF;
+   border: 2px solid #38D5FF;
+   font-family: 'Georama', sans-serif;
+   font-size: 18px;
+   border-radius: 8px;
+   color: #fff;
+
+
+ }
+
+
+ .enviarboton:hover {
+
+  width: 40%;
+  margin-left: 37%;
+  background: #bef1ff ;
+  border-color: #bef1ff ;
+  border: 2px solid #bef1ff ;
+  font-family: 'Georama', sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #fff;
+
+    
+
+
+
+
+ }
+
+
+
+
+ .footer-container {
+
+    display: flex;
+    background: #E1E1E1;
+    justify-content: center;
+    padding: 60px;
+
+
+
+ }
+
+ .footer-izquierda {
+
+    margin-right: 120px ;
+
+    
+
+
+
+ }
+
+ h7 {
+    
+
+    font-size: 23px;
+    font-family: 'Georama', sans-serif;
+    
+    
+    }
+
+
+.imagen1 {
+
+    
+   margin-top: 30px;
+   margin-right: 20px;
+
+
+}
+
+
+
+.footer-derecha {
+
+     
+     margin-left: 40px;
+     display: flex;
+   
+
+}
+
+
+.footer-derecha img {
+
+    margin-right: 20px;
+    margin-top: 40px;
+
+
+}
+
+
+.hcontainer {
+
+     margin-top: 40px;
+
+
+}
+
+
+
+
+h4 {
+
+    font-size: 12px;
+    font-family: 'Georama', sans-serif;
+    
+
+
+}
+
+
+h4 i {
+
+  margin-right: 3px;
+
+
+
+}
+
+     
+h5 {
+
+  font-size: 12px ;
+  font-family: 'Georama', sans-serif;
+  
+
+
+}
+
+
+
+h5 i {
+
+  margin-right: 3px;
+   
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px ) {
+
+
+ .encabezado img {
+
+     
+     width: 150px;
+     height: 130px;
+     margin: auto;
+     margin-left: -130px;
+     margin-top: 40px;
+     
+     
+ 
+   
+
+ }
+
+
+
+ .encabezado input {
+
+    margin: auto;
+    margin-left: 120px;
+    margin-bottom: 80px;
+
+
+ }
+
+
+ .encabezado input:hover {
+
+  margin: auto;
+  margin-left: 120px;
+  margin-bottom: 80px;
+    
+    
+
+
+
+ }
+
+
+  .subencabezado h3 {
+
+     font-size: 22px;
+     margin-left: -1px;
+     margin-left: 40px;
+     
+
+
+ }
+
+
+
+ .subencabezado img {
+   
+      width: 120px;
+      height: 35px;
+      margin-left: 50px;
+      
+    }
+
+   .principal-container {
+
+      flex-direction: column;
+      align-items: center;
+      background: #f8f8f8;
+
+
+   }
+
+
+
+    .principal-izquierda {
+
+      font-size: 15px;
+ 
+   }
+   
+   .principal-derecha p {
+
+     font-size: 15px;
+
+   }
+
+   .principal-derecha video {
+
+      width: 160px;
+      height: 100px;
+
+
+
+   }
+
+
+
+  .inputcontainer {
+
+     flex-direction: column;
+   
+
+  }
+
+
+  .input-izquierda  {
+
+        margin-left: 80px;
+       
+  
+
+  }
+
+
+  .input-derecha {
+
+    margin-right: 20px;
+
+
+  }
+
+
+
+  .footer-container {
+
+      flex-direction: column;
+
+
+
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+   
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+  
+    
+
+ 
+
+
+
+
+
+  
+
+  
+
+  
+
+
+ 
+
+
+  
+
+
+   
+   
+   
+   
+
+ 
+   
+
+
+  
+  
+ 
+  
+
+ 
+   
+
+   
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+     
+
+  
+
+ 
+
